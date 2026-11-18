@@ -2,7 +2,7 @@
 
 Welcome to my cybersecurity portfolio!
 
-I'm currently learning cybersecurity and building my skills through hands-on labs and personal projects. I'm especially interested in security monitoring, network security, and understanding how cybersecurity professionals investigate suspicious activity.
+I'm currently learning cybersecurity and building my skills through hands-on labs and personal projects. I'm especially interested in security monitoring, network security, Linux, and understanding how cybersecurity professionals investigate suspicious activity.
 
 I created this portfolio to document what I've learned, practice using different security tools, and show the progress I'm making.
 
@@ -50,6 +50,37 @@ One of the more interesting parts was learning about QUIC traffic and seeing how
 
 **Tools:** Windows 11, PowerShell, Wireshark, Npcap, VirtualBox
 
+### 03 — Linux Security Baseline Assessment
+
+[View Project](03-Linux-Security/Linux-Security-Baseline/README.md)
+
+For this project, I completed 26 Linux Fundamentals exercises using an Ubuntu virtual machine.
+
+I started by learning basic Linux commands, including how to navigate directories, create files, and manage file permissions.
+
+As I became more comfortable using the terminal, I started learning how to investigate running processes, system services, authentication logs, and network connections.
+
+For my final exercise, I performed a basic security assessment of my Ubuntu system. I checked the operating system version, Linux kernel, available software updates, and package health. I also reviewed some of the security-related findings from my earlier exercises.
+
+One thing I learned was that not every error message or unfamiliar service means something malicious is happening. It's important to understand what the results actually show before making assumptions.
+
+**What I practiced:**
+- Navigating Linux using the terminal
+- Creating files and directories
+- Understanding and changing file permissions
+- Checking user accounts and group memberships
+- Investigating running processes
+- Reviewing system services
+- Reading system logs and authentication events
+- Checking TCP and UDP listening ports
+- Examining network interfaces and routing
+- Reviewing firewall configuration using UFW
+- Checking available software updates
+- Identifying potential security and system maintenance concerns
+- Documenting findings from a basic security investigation
+
+**Tools:** Ubuntu Desktop, Linux Terminal, VirtualBox
+
 ## Skills I'm Learning
 
 I'm currently building my knowledge in several areas of cybersecurity.
@@ -58,6 +89,7 @@ I'm currently building my knowledge in several areas of cybersecurity.
 - Windows Security logs
 - Authentication events
 - Basic security investigations
+- Reviewing system activity
 
 **Networking**
 - TCP/IP
@@ -73,13 +105,25 @@ I'm currently building my knowledge in several areas of cybersecurity.
 - TCP flags
 - DNS traffic analysis
 
+**Linux Fundamentals**
+- Linux terminal commands
+- File and directory permissions
+- User accounts and groups
+- Running processes and services
+- System and authentication logs
+- Network connections and listening ports
+- Basic firewall configuration
+- Software updates and package management
+
 I'm still developing these skills and plan to continue adding projects as I learn more.
 
 ## My Lab Setup
 
-For my projects, I use a Windows 11 virtual machine running in VirtualBox.
+For my projects, I use Windows 11 and Ubuntu virtual machines in VirtualBox.
 
-This gives me a controlled environment where I can practice commands, explore security tools, and investigate network activity.
+This gives me a controlled environment where I can practice commands, explore security tools, and investigate system and network activity.
+
+I also use GitHub to organize my projects and Obsidian to keep track of what I'm learning.
 
 All projects are completed in my own authorized lab environment.
 
@@ -87,12 +131,14 @@ All projects are completed in my own authorized lab environment.
 
 My goal is to continue improving my technical skills and eventually work in cybersecurity.
 
-I'm particularly interested in Security Operations Center (SOC) roles and security engineering.
+I'm particularly interested in security monitoring, investigating suspicious activity, and understanding how businesses can better protect their systems.
 
-I also want to become more comfortable investigating security events, understanding network traffic, and solving cybersecurity challenges on my own.
+I also enjoy learning how different operating systems and networks work.
 
-I'll continue updating this portfolio as I complete more labs and projects.
+I'm still learning, and I know there's a lot more to cybersecurity than what I've practiced so far.
+
+I'll continue updating this portfolio as I complete more labs, learn new tools, and work on more challenging projects.
 
 ---
 
-*These projects are part of my learning experience. They represent hands-on practice rather than professional incident-response work. Screenshots have been reviewed to remove unnecessary personal information, and raw packet captures are not included.*
+*These projects are part of my learning experience. They represent hands-on practice rather than professional incident-response work. I review screenshots before publishing to avoid sharing unnecessary personal or system information. Raw authentication logs and packet captures are not included.*
